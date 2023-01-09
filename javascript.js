@@ -7,7 +7,7 @@ function Login() {
     senha=senha.toLowerCase();
 
     if (usuario=="arthur@adm" && senha=="admin") {
-      console.log("funfou");
+      alert("Usuário Administrador Permitido!")
       done=1;
     }
     
