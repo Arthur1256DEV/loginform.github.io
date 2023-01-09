@@ -23,10 +23,12 @@
         <p class="subtitle">Entre com suas informações de cadastro.</p>
        </div>
 
+       <div class="login-inputs">
        <div class="email">
         <label for="emailInsert">E-mail</label>
         <input type="email" name="emailInsert" id="emails" placeholder="Digite seu e-mail">
        </div>
+        </div>
 
        <div class="password">
         <label for="passwordInsert">Senha</label>
@@ -44,7 +46,7 @@
             <a href="#" class="newPhrase">Esqueci minha senha</a>
         </div>
        </div>
-       <input type="submit" value="ENTRAR" class="buttons">
+       <input type="button" value="ENTRAR" class="buttons" onclick="Login()">
 
        <div class="containerRegister">
        <p class="register">Não tem uma conta? <a href="#" class="ARegister">Registre-se</a></p>
@@ -56,5 +58,7 @@
     <div class="imageSide">
         <img src="./images/side-image.jpg" alt="" class="imagefinal">
     </div>
+
+    <script src="./javascript.js"></script>
 </body>
 </html>
